@@ -81,7 +81,7 @@ class BaseHeuristic(ABC):
     
     def graph_heuristic(self, current: tuple, goal: tuple) -> float:
         #120 = min distance possibile
-       return 120 * len(self.find_shortest_path_bfs(current, goal))
+       return 120 * (len(self.find_shortest_path_bfs(current, goal))-1)
     
 
 
@@ -220,5 +220,6 @@ class BalancingHeuristic(BaseHeuristic):
         - Optimal connection sequence
         """
         
+
 
         return self.graph_heuristic(current, goal)
