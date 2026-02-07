@@ -1,0 +1,12 @@
+REPORT A*: scenario Emergency response to critical station
+Start:1
+Goals:[17]
+Constraints:{'max_energy_consumption': 800, 'max_time': 400}
+====================
+# Explored nodes: 3
+Explored nodes: [1, 0, 17]
+Path: [1, 17]
+Solution cost: 120.0
+Path length: 2
+Time spent: 120
+Energy spent: 96.0
