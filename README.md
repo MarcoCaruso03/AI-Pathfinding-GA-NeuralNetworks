@@ -31,4 +31,4 @@ This repository contains a collection of three comprehensive projects (Assignmen
 - Giacomo Alberto Napolitano
 
 ---
-*Note: Full technical reports for each assignment are available in the respective project folders.*
+*The "AI_report.pdf" file contains a detailed technical review of the implementations and design choices made for all three projects.*
