@@ -1,0 +1,2740 @@
+============================================================
+REPORT SPERIMENTALE MLP - ANALISI SCENARI
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0031
+- Range (Min - Max):       [0.9666 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9912280701754386, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.4435 s
+- Tempo totale config:     216.52 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036645
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0039
+- Range (Min - Max):       [0.9648 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9734513274336283, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1618 s
+- Tempo totale config:     174.26 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.045089
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9744
+- Deviazione Standard:      0.0038
+- Range (Min - Max):       [0.9684 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0004 s
+- Tempo totale config:     150.07 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.062699
+- Val Accuracy finale media:      0.9744
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9652
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9508 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9649122807017544, 0.956140350877193, 0.9380530973451328, 0.9824561403508771, 0.9912280701754386, 0.9824561403508771, 0.9736842105263158, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9088 s
+- Tempo totale config:     136.32 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.110987
+- Val Accuracy finale media:      0.9652
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9487
+- Deviazione Standard:      0.0066
+- Range (Min - Max):       [0.9349 - 0.9613]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9298245614035088, 0.9736842105263158, 0.956140350877193, 0.9380530973451328, 0.9736842105263158, 0.9649122807017544, 0.9473684210526315, 0.9473684210526315, 0.911504424778761]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.3043 s
+- Tempo totale config:     195.65 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.185680
+- Val Accuracy finale media:      0.9487
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9347
+- Deviazione Standard:      0.0108
+- Range (Min - Max):       [0.9121 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.9385964912280702, 0.9298245614035088, 0.9203539823008849, 0.9473684210526315, 0.9473684210526315, 0.9473684210526315, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0162 s
+- Tempo totale config:     152.43 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.289089
+- Val Accuracy finale media:      0.9347
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.8835
+- Deviazione Standard:      0.0330
+- Range (Min - Max):       [0.8085 - 0.9367]
+- Dettaglio per Fold (tutti): [0.7807017543859649, 0.8245614035087719, 0.7894736842105263, 0.7982456140350878, 0.8495575221238938, 0.9298245614035088, 0.9385964912280702, 0.9385964912280702, 0.9035087719298246, 0.8761061946902655]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6908 s
+- Tempo totale config:     103.62 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.447061
+- Val Accuracy finale media:      0.8835
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.7163
+- Deviazione Standard:      0.1529
+- Range (Min - Max):       [0.3673 - 0.9262]
+- Dettaglio per Fold (tutti): [0.40350877192982454, 0.5175438596491229, 0.4824561403508772, 0.4473684210526316, 0.46017699115044247, 0.8771929824561403, 0.868421052631579, 0.9298245614035088, 0.868421052631579, 0.8672566371681416]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.8645 s
+- Tempo totale config:     129.67 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.585868
+- Val Accuracy finale media:      0.7163
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1309 s
+- Tempo totale config:     169.63 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0843 s
+- Tempo totale config:     162.65 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9575 s
+- Tempo totale config:     143.62 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:constant_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9533 s
+- Tempo totale config:     143.00 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0031
+- Range (Min - Max):       [0.9666 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9912280701754386, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1500 s
+- Tempo totale config:     172.50 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036645
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0039
+- Range (Min - Max):       [0.9648 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9734513274336283, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0572 s
+- Tempo totale config:     158.57 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.045089
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9744
+- Deviazione Standard:      0.0038
+- Range (Min - Max):       [0.9684 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9034 s
+- Tempo totale config:     135.51 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.062699
+- Val Accuracy finale media:      0.9744
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9652
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9508 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9649122807017544, 0.956140350877193, 0.9380530973451328, 0.9824561403508771, 0.9912280701754386, 0.9824561403508771, 0.9736842105263158, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.8383 s
+- Tempo totale config:     125.74 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.110987
+- Val Accuracy finale media:      0.9652
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9487
+- Deviazione Standard:      0.0066
+- Range (Min - Max):       [0.9349 - 0.9613]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9298245614035088, 0.9736842105263158, 0.956140350877193, 0.9380530973451328, 0.9736842105263158, 0.9649122807017544, 0.9473684210526315, 0.9473684210526315, 0.911504424778761]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1768 s
+- Tempo totale config:     176.52 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.185680
+- Val Accuracy finale media:      0.9487
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9347
+- Deviazione Standard:      0.0108
+- Range (Min - Max):       [0.9121 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.9385964912280702, 0.9298245614035088, 0.9203539823008849, 0.9473684210526315, 0.9473684210526315, 0.9473684210526315, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0044 s
+- Tempo totale config:     150.66 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.289089
+- Val Accuracy finale media:      0.9347
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.8835
+- Deviazione Standard:      0.0330
+- Range (Min - Max):       [0.8085 - 0.9367]
+- Dettaglio per Fold (tutti): [0.7807017543859649, 0.8245614035087719, 0.7894736842105263, 0.7982456140350878, 0.8495575221238938, 0.9298245614035088, 0.9385964912280702, 0.9385964912280702, 0.9035087719298246, 0.8761061946902655]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9510 s
+- Tempo totale config:     142.65 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.447061
+- Val Accuracy finale media:      0.8835
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.7163
+- Deviazione Standard:      0.1529
+- Range (Min - Max):       [0.3673 - 0.9262]
+- Dettaglio per Fold (tutti): [0.40350877192982454, 0.5175438596491229, 0.4824561403508772, 0.4473684210526316, 0.46017699115044247, 0.8771929824561403, 0.868421052631579, 0.9298245614035088, 0.868421052631579, 0.8672566371681416]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.8962 s
+- Tempo totale config:     134.43 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.585868
+- Val Accuracy finale media:      0.7163
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2085 s
+- Tempo totale config:     181.28 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2883 s
+- Tempo totale config:     193.24 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1495 s
+- Tempo totale config:     172.43 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:invscaling_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1656 s
+- Tempo totale config:     174.84 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0031
+- Range (Min - Max):       [0.9666 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9912280701754386, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.4620 s
+- Tempo totale config:     219.30 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036645
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0039
+- Range (Min - Max):       [0.9648 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9734513274336283, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.1281 s
+- Tempo totale config:     169.21 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.045089
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9744
+- Deviazione Standard:      0.0038
+- Range (Min - Max):       [0.9684 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9777 s
+- Tempo totale config:     146.66 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.062699
+- Val Accuracy finale media:      0.9744
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9652
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9508 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9649122807017544, 0.956140350877193, 0.9380530973451328, 0.9824561403508771, 0.9912280701754386, 0.9824561403508771, 0.9736842105263158, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0140 s
+- Tempo totale config:     152.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.110987
+- Val Accuracy finale media:      0.9652
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9487
+- Deviazione Standard:      0.0066
+- Range (Min - Max):       [0.9349 - 0.9613]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9298245614035088, 0.9736842105263158, 0.956140350877193, 0.9380530973451328, 0.9736842105263158, 0.9649122807017544, 0.9473684210526315, 0.9473684210526315, 0.911504424778761]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.3559 s
+- Tempo totale config:     203.38 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.185680
+- Val Accuracy finale media:      0.9487
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9347
+- Deviazione Standard:      0.0108
+- Range (Min - Max):       [0.9121 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.9385964912280702, 0.9298245614035088, 0.9203539823008849, 0.9473684210526315, 0.9473684210526315, 0.9473684210526315, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2119 s
+- Tempo totale config:     181.78 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.289089
+- Val Accuracy finale media:      0.9347
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.8835
+- Deviazione Standard:      0.0330
+- Range (Min - Max):       [0.8085 - 0.9367]
+- Dettaglio per Fold (tutti): [0.7807017543859649, 0.8245614035087719, 0.7894736842105263, 0.7982456140350878, 0.8495575221238938, 0.9298245614035088, 0.9385964912280702, 0.9385964912280702, 0.9035087719298246, 0.8761061946902655]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0796 s
+- Tempo totale config:     161.95 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.447061
+- Val Accuracy finale media:      0.8835
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.7163
+- Deviazione Standard:      0.1529
+- Range (Min - Max):       [0.3673 - 0.9262]
+- Dettaglio per Fold (tutti): [0.40350877192982454, 0.5175438596491229, 0.4824561403508772, 0.4473684210526316, 0.46017699115044247, 0.8771929824561403, 0.868421052631579, 0.9298245614035088, 0.868421052631579, 0.8672566371681416]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0246 s
+- Tempo totale config:     153.68 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.585868
+- Val Accuracy finale media:      0.7163
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.3172 s
+- Tempo totale config:     197.57 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.3506 s
+- Tempo totale config:     202.59 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2937 s
+- Tempo totale config:     194.05 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.0001_Pol:adaptive_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2839 s
+- Tempo totale config:     192.58 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9703
+- Deviazione Standard:      0.0026
+- Range (Min - Max):       [0.9649 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.4686 s
+- Tempo totale config:     220.29 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.013095
+- Val Accuracy finale media:      0.9703
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9701
+- Deviazione Standard:      0.0036
+- Range (Min - Max):       [0.9631 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9736842105263158, 1.0, 0.9646017699115044]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2333 s
+- Tempo totale config:     184.99 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.009578
+- Val Accuracy finale media:      0.9701
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9737
+- Deviazione Standard:      0.0040
+- Range (Min - Max):       [0.9666 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0160 s
+- Tempo totale config:     152.40 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010065
+- Val Accuracy finale media:      0.9737
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0043
+- Range (Min - Max):       [0.9666 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9736842105263158, 1.0, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9634 s
+- Tempo totale config:     144.51 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.011316
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9731
+- Deviazione Standard:      0.0046
+- Range (Min - Max):       [0.9648 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9736842105263158, 0.9646017699115044, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.3777 s
+- Tempo totale config:     206.65 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.066448
+- Val Accuracy finale media:      0.9731
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9667
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9772]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9649122807017544, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2457 s
+- Tempo totale config:     186.86 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.099052
+- Val Accuracy finale media:      0.9667
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9533
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9402 - 0.9666]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.956140350877193, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 0.9292035398230089]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0509 s
+- Tempo totale config:     157.64 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.157411
+- Val Accuracy finale media:      0.9533
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9410
+- Deviazione Standard:      0.0093
+- Range (Min - Max):       [0.9174 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.956140350877193, 0.9473684210526315, 0.9203539823008849, 0.956140350877193, 0.956140350877193, 0.9385964912280702, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9516 s
+- Tempo totale config:     142.74 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.249304
+- Val Accuracy finale media:      0.9410
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2227 s
+- Tempo totale config:     183.41 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2811 s
+- Tempo totale config:     192.17 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0979 s
+- Tempo totale config:     164.68 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:constant_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0144 s
+- Tempo totale config:     152.15 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9703
+- Deviazione Standard:      0.0026
+- Range (Min - Max):       [0.9649 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.2689 s
+- Tempo totale config:     190.33 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.013095
+- Val Accuracy finale media:      0.9703
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9701
+- Deviazione Standard:      0.0036
+- Range (Min - Max):       [0.9631 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9736842105263158, 1.0, 0.9646017699115044]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0892 s
+- Tempo totale config:     163.37 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.009578
+- Val Accuracy finale media:      0.9701
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9737
+- Deviazione Standard:      0.0040
+- Range (Min - Max):       [0.9666 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.9074 s
+- Tempo totale config:     136.11 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010065
+- Val Accuracy finale media:      0.9737
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0043
+- Range (Min - Max):       [0.9666 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9736842105263158, 1.0, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.8489 s
+- Tempo totale config:     127.33 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.011316
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9731
+- Deviazione Standard:      0.0046
+- Range (Min - Max):       [0.9648 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9736842105263158, 0.9646017699115044, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    1.0718 s
+- Tempo totale config:     160.77 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.066448
+- Val Accuracy finale media:      0.9731
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9667
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9772]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9649122807017544, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6297 s
+- Tempo totale config:     94.46 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.099052
+- Val Accuracy finale media:      0.9667
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9533
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9402 - 0.9666]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.956140350877193, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 0.9292035398230089]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5537 s
+- Tempo totale config:     83.05 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.157411
+- Val Accuracy finale media:      0.9533
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9410
+- Deviazione Standard:      0.0093
+- Range (Min - Max):       [0.9174 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.956140350877193, 0.9473684210526315, 0.9203539823008849, 0.956140350877193, 0.956140350877193, 0.9385964912280702, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5215 s
+- Tempo totale config:     78.23 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.249304
+- Val Accuracy finale media:      0.9410
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7511 s
+- Tempo totale config:     112.66 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6269 s
+- Tempo totale config:     94.03 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6188 s
+- Tempo totale config:     92.82 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:invscaling_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6105 s
+- Tempo totale config:     91.58 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9703
+- Deviazione Standard:      0.0026
+- Range (Min - Max):       [0.9649 - 0.9754]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7523 s
+- Tempo totale config:     112.85 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.013095
+- Val Accuracy finale media:      0.9703
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9701
+- Deviazione Standard:      0.0036
+- Range (Min - Max):       [0.9631 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9736842105263158, 1.0, 0.9646017699115044]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6148 s
+- Tempo totale config:     92.22 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.009578
+- Val Accuracy finale media:      0.9701
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9737
+- Deviazione Standard:      0.0040
+- Range (Min - Max):       [0.9666 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9824561403508771, 0.956140350877193, 0.9649122807017544, 0.9734513274336283, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5261 s
+- Tempo totale config:     78.91 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010065
+- Val Accuracy finale media:      0.9737
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0043
+- Range (Min - Max):       [0.9666 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9736842105263158, 1.0, 0.9912280701754386, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4748 s
+- Tempo totale config:     71.22 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.011316
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9731
+- Deviazione Standard:      0.0046
+- Range (Min - Max):       [0.9648 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9736842105263158, 0.9646017699115044, 0.9736842105263158, 0.9824561403508771, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6957 s
+- Tempo totale config:     104.36 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.066448
+- Val Accuracy finale media:      0.9731
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9667
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9772]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9649122807017544, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5841 s
+- Tempo totale config:     87.62 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.099052
+- Val Accuracy finale media:      0.9667
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9533
+- Deviazione Standard:      0.0062
+- Range (Min - Max):       [0.9402 - 0.9666]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.956140350877193, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 0.9292035398230089]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5128 s
+- Tempo totale config:     76.93 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.157411
+- Val Accuracy finale media:      0.9533
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9410
+- Deviazione Standard:      0.0093
+- Range (Min - Max):       [0.9174 - 0.9578]
+- Dettaglio per Fold (tutti): [0.9385964912280702, 0.9210526315789473, 0.956140350877193, 0.9473684210526315, 0.9203539823008849, 0.956140350877193, 0.956140350877193, 0.9385964912280702, 0.9298245614035088, 0.8938053097345132]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4699 s
+- Tempo totale config:     70.49 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.249304
+- Val Accuracy finale media:      0.9410
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6109 s
+- Tempo totale config:     91.64 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6140 s
+- Tempo totale config:     92.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6116 s
+- Tempo totale config:     91.74 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.001_Pol:adaptive_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6040 s
+- Tempo totale config:     90.59 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9620
+- Deviazione Standard:      0.0065
+- Range (Min - Max):       [0.9438 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9473684210526315, 0.956140350877193, 0.9646017699115044, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 1.0, 0.9469026548672567]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7474 s
+- Tempo totale config:     112.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.020581
+- Val Accuracy finale media:      0.9620
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9616
+- Deviazione Standard:      0.0052
+- Range (Min - Max):       [0.9543 - 0.9719]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.956140350877193, 0.9298245614035088, 0.9649122807017544, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6089 s
+- Tempo totale config:     91.34 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010709
+- Val Accuracy finale media:      0.9616
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0034
+- Range (Min - Max):       [0.9578 - 0.9736]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9473684210526315, 0.9385964912280702, 0.9736842105263158, 0.9734513274336283, 0.9473684210526315, 0.9736842105263158, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5264 s
+- Tempo totale config:     78.97 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.005419
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9771]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9912280701754386, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9385964912280702, 1.0, 0.9912280701754386, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4745 s
+- Tempo totale config:     71.17 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000903
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9747
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9649 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9824561403508771, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6928 s
+- Tempo totale config:     103.92 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.016570
+- Val Accuracy finale media:      0.9747
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9666 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5829 s
+- Tempo totale config:     87.44 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.034873
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9735
+- Deviazione Standard:      0.0045
+- Range (Min - Max):       [0.9648 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 1.0, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5102 s
+- Tempo totale config:     76.53 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.056958
+- Val Accuracy finale media:      0.9735
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9698
+- Deviazione Standard:      0.0047
+- Range (Min - Max):       [0.9596 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4680 s
+- Tempo totale config:     70.21 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.086009
+- Val Accuracy finale media:      0.9698
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6038 s
+- Tempo totale config:     90.58 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6207 s
+- Tempo totale config:     93.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5975 s
+- Tempo totale config:     89.62 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:constant_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6112 s
+- Tempo totale config:     91.68 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9620
+- Deviazione Standard:      0.0065
+- Range (Min - Max):       [0.9438 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9473684210526315, 0.956140350877193, 0.9646017699115044, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 1.0, 0.9469026548672567]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7470 s
+- Tempo totale config:     112.05 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.020581
+- Val Accuracy finale media:      0.9620
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9616
+- Deviazione Standard:      0.0052
+- Range (Min - Max):       [0.9543 - 0.9719]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.956140350877193, 0.9298245614035088, 0.9649122807017544, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6105 s
+- Tempo totale config:     91.58 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010709
+- Val Accuracy finale media:      0.9616
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0034
+- Range (Min - Max):       [0.9578 - 0.9736]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9473684210526315, 0.9385964912280702, 0.9736842105263158, 0.9734513274336283, 0.9473684210526315, 0.9736842105263158, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5267 s
+- Tempo totale config:     79.01 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.005419
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9771]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9912280701754386, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9385964912280702, 1.0, 0.9912280701754386, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4728 s
+- Tempo totale config:     70.93 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000903
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9747
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9649 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9824561403508771, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6962 s
+- Tempo totale config:     104.42 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.016570
+- Val Accuracy finale media:      0.9747
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9666 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5817 s
+- Tempo totale config:     87.26 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.034873
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9735
+- Deviazione Standard:      0.0045
+- Range (Min - Max):       [0.9648 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 1.0, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5106 s
+- Tempo totale config:     76.59 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.056958
+- Val Accuracy finale media:      0.9735
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9698
+- Deviazione Standard:      0.0047
+- Range (Min - Max):       [0.9596 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4693 s
+- Tempo totale config:     70.40 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.086009
+- Val Accuracy finale media:      0.9698
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5917 s
+- Tempo totale config:     88.75 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6058 s
+- Tempo totale config:     90.86 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6156 s
+- Tempo totale config:     92.33 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:invscaling_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6093 s
+- Tempo totale config:     91.39 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9620
+- Deviazione Standard:      0.0065
+- Range (Min - Max):       [0.9438 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9649122807017544, 0.9473684210526315, 0.956140350877193, 0.9646017699115044, 0.9736842105263158, 0.956140350877193, 0.9473684210526315, 1.0, 0.9469026548672567]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7472 s
+- Tempo totale config:     112.08 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.020581
+- Val Accuracy finale media:      0.9620
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9616
+- Deviazione Standard:      0.0052
+- Range (Min - Max):       [0.9543 - 0.9719]
+- Dettaglio per Fold (tutti): [0.956140350877193, 0.956140350877193, 0.9298245614035088, 0.9649122807017544, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 0.9824561403508771, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6090 s
+- Tempo totale config:     91.35 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010709
+- Val Accuracy finale media:      0.9616
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0034
+- Range (Min - Max):       [0.9578 - 0.9736]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.9473684210526315, 0.9385964912280702, 0.9736842105263158, 0.9734513274336283, 0.9473684210526315, 0.9736842105263158, 0.9912280701754386, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5227 s
+- Tempo totale config:     78.41 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.005419
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9660
+- Deviazione Standard:      0.0055
+- Range (Min - Max):       [0.9508 - 0.9771]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9912280701754386, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9385964912280702, 1.0, 0.9912280701754386, 0.9824561403508771, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4740 s
+- Tempo totale config:     71.11 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000903
+- Val Accuracy finale media:      0.9660
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9747
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9649 - 0.9824]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9824561403508771, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6946 s
+- Tempo totale config:     104.19 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.016570
+- Val Accuracy finale media:      0.9747
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9740
+- Deviazione Standard:      0.0033
+- Range (Min - Max):       [0.9666 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.956140350877193, 0.9912280701754386, 0.9646017699115044, 0.9649122807017544, 0.9736842105263158, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5835 s
+- Tempo totale config:     87.53 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.034873
+- Val Accuracy finale media:      0.9740
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9735
+- Deviazione Standard:      0.0045
+- Range (Min - Max):       [0.9648 - 0.9842]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9824561403508771, 0.9646017699115044, 0.9649122807017544, 0.9649122807017544, 1.0, 0.9912280701754386, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5091 s
+- Tempo totale config:     76.37 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.056958
+- Val Accuracy finale media:      0.9735
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9698
+- Deviazione Standard:      0.0047
+- Range (Min - Max):       [0.9596 - 0.9789]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9912280701754386, 0.9649122807017544, 0.9649122807017544, 0.9646017699115044, 0.9736842105263158, 0.9736842105263158, 0.9824561403508771, 0.9649122807017544, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4715 s
+- Tempo totale config:     70.72 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.086009
+- Val Accuracy finale media:      0.9698
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6172 s
+- Tempo totale config:     92.58 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6245 s
+- Tempo totale config:     93.68 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6122 s
+- Tempo totale config:     91.83 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.01_Pol:adaptive_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6227 s
+- Tempo totale config:     93.41 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9555
+- Deviazione Standard:      0.0063
+- Range (Min - Max):       [0.9420 - 0.9666]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9649122807017544, 0.9385964912280702, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9736842105263158, 0.9203539823008849]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7335 s
+- Tempo totale config:     110.02 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.075323
+- Val Accuracy finale media:      0.9555
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9577
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9437 - 0.9649]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9557522123893806, 0.956140350877193, 0.956140350877193, 0.9824561403508771, 0.9912280701754386, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5840 s
+- Tempo totale config:     87.60 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.052611
+- Val Accuracy finale media:      0.9577
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9575
+- Deviazione Standard:      0.0054
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9385964912280702, 0.9473684210526315, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5107 s
+- Tempo totale config:     76.60 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036461
+- Val Accuracy finale media:      0.9575
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9599
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9824561403508771, 0.9473684210526315, 0.9473684210526315, 0.9736842105263158, 0.9292035398230089, 0.9473684210526315, 0.956140350877193, 0.9473684210526315, 1.0, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4656 s
+- Tempo totale config:     69.84 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.044391
+- Val Accuracy finale media:      0.9599
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9733
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.956140350877193, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6945 s
+- Tempo totale config:     104.18 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000989
+- Val Accuracy finale media:      0.9733
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5818 s
+- Tempo totale config:     87.27 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.003023
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9748
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9631 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5084 s
+- Tempo totale config:     76.26 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010674
+- Val Accuracy finale media:      0.9748
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9738
+- Deviazione Standard:      0.0037
+- Range (Min - Max):       [0.9649 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9649122807017544, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4673 s
+- Tempo totale config:     70.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.027319
+- Val Accuracy finale media:      0.9738
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5952 s
+- Tempo totale config:     89.28 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6138 s
+- Tempo totale config:     92.07 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6173 s
+- Tempo totale config:     92.59 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:constant_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6088 s
+- Tempo totale config:     91.32 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9555
+- Deviazione Standard:      0.0063
+- Range (Min - Max):       [0.9420 - 0.9666]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9649122807017544, 0.9385964912280702, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9736842105263158, 0.9203539823008849]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7323 s
+- Tempo totale config:     109.84 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.075323
+- Val Accuracy finale media:      0.9555
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9577
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9437 - 0.9649]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9557522123893806, 0.956140350877193, 0.956140350877193, 0.9824561403508771, 0.9912280701754386, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5918 s
+- Tempo totale config:     88.78 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.052611
+- Val Accuracy finale media:      0.9577
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9575
+- Deviazione Standard:      0.0054
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9385964912280702, 0.9473684210526315, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5109 s
+- Tempo totale config:     76.63 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036461
+- Val Accuracy finale media:      0.9575
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9599
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9824561403508771, 0.9473684210526315, 0.9473684210526315, 0.9736842105263158, 0.9292035398230089, 0.9473684210526315, 0.956140350877193, 0.9473684210526315, 1.0, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4641 s
+- Tempo totale config:     69.61 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.044391
+- Val Accuracy finale media:      0.9599
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9733
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.956140350877193, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6912 s
+- Tempo totale config:     103.68 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000989
+- Val Accuracy finale media:      0.9733
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5807 s
+- Tempo totale config:     87.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.003023
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9748
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9631 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5091 s
+- Tempo totale config:     76.37 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010674
+- Val Accuracy finale media:      0.9748
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9738
+- Deviazione Standard:      0.0037
+- Range (Min - Max):       [0.9649 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9649122807017544, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4678 s
+- Tempo totale config:     70.18 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.027319
+- Val Accuracy finale media:      0.9738
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6158 s
+- Tempo totale config:     92.37 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6160 s
+- Tempo totale config:     92.40 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6227 s
+- Tempo totale config:     93.41 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:invscaling_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6120 s
+- Tempo totale config:     91.80 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:adam_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9555
+- Deviazione Standard:      0.0063
+- Range (Min - Max):       [0.9420 - 0.9666]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9649122807017544, 0.9385964912280702, 0.9649122807017544, 0.9469026548672567, 0.9736842105263158, 0.9736842105263158, 0.956140350877193, 0.9736842105263158, 0.9203539823008849]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.7376 s
+- Tempo totale config:     110.64 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.075323
+- Val Accuracy finale media:      0.9555
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:adam_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9577
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9437 - 0.9649]
+- Dettaglio per Fold (tutti): [0.9473684210526315, 0.9824561403508771, 0.956140350877193, 0.956140350877193, 0.9557522123893806, 0.956140350877193, 0.956140350877193, 0.9824561403508771, 0.9912280701754386, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5866 s
+- Tempo totale config:     87.99 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.052611
+- Val Accuracy finale media:      0.9577
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:adam_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9575
+- Deviazione Standard:      0.0054
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9736842105263158, 0.956140350877193, 0.9385964912280702, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9385964912280702, 0.9473684210526315, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5102 s
+- Tempo totale config:     76.53 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.036461
+- Val Accuracy finale media:      0.9575
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:adam_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9599
+- Deviazione Standard:      0.0057
+- Range (Min - Max):       [0.9455 - 0.9719]
+- Dettaglio per Fold (tutti): [0.9824561403508771, 0.9473684210526315, 0.9473684210526315, 0.9736842105263158, 0.9292035398230089, 0.9473684210526315, 0.956140350877193, 0.9473684210526315, 1.0, 0.9380530973451328]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4667 s
+- Tempo totale config:     70.00 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.044391
+- Val Accuracy finale media:      0.9599
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:sgd_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9733
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.956140350877193, 0.9824561403508771, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6940 s
+- Tempo totale config:     104.10 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000989
+- Val Accuracy finale media:      0.9733
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:sgd_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9743
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9614 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9557522123893806, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5818 s
+- Tempo totale config:     87.27 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.003023
+- Val Accuracy finale media:      0.9743
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:sgd_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9748
+- Deviazione Standard:      0.0041
+- Range (Min - Max):       [0.9631 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9736842105263158, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.5117 s
+- Tempo totale config:     76.76 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.010674
+- Val Accuracy finale media:      0.9748
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:sgd_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9738
+- Deviazione Standard:      0.0037
+- Range (Min - Max):       [0.9649 - 0.9807]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 1.0, 0.9649122807017544, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9649122807017544, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.4677 s
+- Tempo totale config:     70.15 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.027319
+- Val Accuracy finale media:      0.9738
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:lbfgs_Batch:32
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6159 s
+- Tempo totale config:     92.39 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:lbfgs_Batch:64
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6148 s
+- Tempo totale config:     92.22 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:lbfgs_Batch:128
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6190 s
+- Tempo totale config:     92.86 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
+CONFIGURAZIONE: LR:0.1_Pol:adaptive_Solv:lbfgs_Batch:256
+------------------------------
+[ACCURATEZZA]
+- Media Globale (30 run): 0.9723
+- Deviazione Standard:      0.0042
+- Range (Min - Max):       [0.9596 - 0.9841]
+- Dettaglio per Fold (tutti): [0.9649122807017544, 0.9824561403508771, 0.9736842105263158, 0.9824561403508771, 0.9469026548672567, 0.9736842105263158, 0.9912280701754386, 1.0, 1.0, 0.9557522123893806]... (mostrati primi 10)
+
+[TEMPI DI TRAINING]
+- Tempo medio per Fold:    0.6148 s
+- Tempo totale config:     92.23 s
+
+[CURVE DI APPRENDIMENTO]
+- Epoche medie prima dello stop: 200.0
+- Loss finale media:              0.000464
+- Val Accuracy finale media:      0.9723
+
+============================================================
+
