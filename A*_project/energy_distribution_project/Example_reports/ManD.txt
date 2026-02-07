@@ -3,8 +3,8 @@ Start:6
 Goals:[5, 12, 8]
 Constraints:{'visit_order': True, 'max_total_distance': 1800}
 ====================
-# Explored nodes: 28
-Explored nodes: [5, 6, 0, 1, 2, 3, 4, 5, 6, 7, 9, 12, 13, 14, 17, 18, 0, 2, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15]
+# Explored nodes: 12
+Explored nodes: [5, 6, 5, 6, 7, 12, 13, 14, 8, 9, 10, 12]
 Path: [6, 5, 7, 14, 13, 12, 10, 9, 8]
 Solution cost: 1020.0
 Path length: 9
